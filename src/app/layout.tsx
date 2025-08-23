@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../globals.css";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import { CartProvider } from "@/contexts/CartContext";
 import { ThemeProvider } from "@/contexts/ThemeContext";

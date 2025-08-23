@@ -5,6 +5,8 @@ export default async function ProductPage({
 }: {
   params: { id: string };
 }) {
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/products/${params.id}?populate=*`,
     { cache: "no-store" } // no-store = always fetch latest

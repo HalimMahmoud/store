@@ -93,7 +93,7 @@ export default function CarouselProducts({
                 href="/products/[id]"
                 as={`/products/${product.documentId}`}
               >
-                <Card className="group hover:shadow-lg transition-all duration-200 overflow-hidden py-1">
+                <Card className="group hover:shadow-lg transition-all duration-200 overflow-hidden py-0">
                   <CardContent className="p-0">
                     {/* Product Image */}
                     <div className="relative aspect-square overflow-hidden bg-gray-100">
