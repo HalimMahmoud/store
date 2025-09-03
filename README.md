@@ -7,6 +7,8 @@ Built with **Next.js** and integrated with **Strapi Headless CMS** for powerful 
 
 ## 🚀 Features
 
+**“The project is still under development, and these features are planned for upcoming releases.”**
+
 - 🛍️ Product listing with categories & filters
 - 🔍 Search and sorting functionality
 - ❤️ Favorites (wishlist) support
@@ -20,11 +22,9 @@ Built with **Next.js** and integrated with **Strapi Headless CMS** for powerful 
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Next.js, TailwindCSS
-- **Backend:** Strapi (Headless CMS)
-- **Database:** PostgreSQL / MongoDB
-- **Payments:** Stripe
-- **Deployment:** Vercel / Netlify / Render
+- **Frontend UI:** Next.js, TailwindCSS
+- **Backend Integation** Strapi (Headless CMS)
+- **Payments Integation:** Stripe
 
 ---
 
@@ -32,6 +32,28 @@ Built with **Next.js** and integrated with **Strapi Headless CMS** for powerful 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/HalimMahmoud/store
+   cd store
    ```
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Setup environment variables**
+   Create a .env.local file in the root with:
+
+```lua
+NEXT_PUBLIC_API_URL=http://localhost:1337
+STRIPE_SECRET_KEY=your_stripe_secret
+STRIPE_PUBLIC_KEY=your_stripe_public
+```
+
+4. **Run the development server**
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000
