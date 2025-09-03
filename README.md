@@ -37,23 +37,22 @@ Built with **Next.js** and integrated with **Strapi Headless CMS** for powerful 
    ```
 2. **Install dependencies**
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. **Setup environment variables**
    Create a .env.local file in the root with:
 
-```lua
-NEXT_PUBLIC_API_URL=http://localhost:1337
-STRIPE_SECRET_KEY=your_stripe_secret
-STRIPE_PUBLIC_KEY=your_stripe_public
-```
+   ```lua
+   NEXT_PUBLIC_API_URL=http://localhost:1337
+   STRIPE_SECRET_KEY=your_stripe_secret
+   STRIPE_PUBLIC_KEY=your_stripe_public
+   ```
 
 4. **Run the development server**
-
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 Open http://localhost:3000
